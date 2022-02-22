@@ -29,7 +29,7 @@ export function Home() {
     <View style={styles.container}>
       <Text style={styles.title}>Wellcome, Leo</Text>
 
-      <Text styles={styles.greetings}>{greeting}</Text>
+      <Text style={styles.greetings}>{greeting}</Text>
 
       <TextInput
         style={styles.input}
@@ -71,4 +71,7 @@ const styles = StyleSheet.create({
     padding: 16,
     marginTop: 28,
   },
+  greetings: {
+    color: "#aaa",
+  }
 });
